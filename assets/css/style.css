@@ -651,7 +651,8 @@ img {
 .login-modal.register-modal,
 .login-modal,
 .contact-modal,
-.payment-modal {
+.payment-modal, 
+.textile-item-popup {
     transform: scale(.5) translateX(-50%);
     opacity: 0;
     visibility: hidden;
@@ -662,7 +663,8 @@ img {
 .login-modal.register-modal.active,
 .login-modal.login-active,
 .contact-modal.active,
-.payment-modal.active {
+.payment-modal.active,
+body.activepop .textile-item-popup {
     transform: scale(1) translateX(-50%);
     visibility: visible;
     opacity: 1;
@@ -723,7 +725,8 @@ img {
     opacity: 0;
 }
 
-.overlay.active {
+.overlay.active,
+.overlay.activepop {
     visibility: visible;
     opacity: .5;
 }
@@ -1512,4 +1515,101 @@ img {
 
 .header-area .reg-btn i {
     margin-right: 3px;
+}
+
+/* popup single css */
+.textile-item-popup {
+    position: fixed;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 555px;
+    background: #fff;
+    z-index: 99;
+    padding: 20px;
+    height: 555px;
+}
+
+.textile-popup-inner {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.textile-item-popup img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.textile-item-popup .single-textile-image {
+    height: 240px;
+    margin-bottom: 15px;
+}
+
+.textile-popup-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textile-popup-left .title {
+    color: #0070BC;
+    font-size: 22px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.textile-popup-content span {
+    display: block;
+    color: #0070BC;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.textile-popup-content li {
+    font-size: 14px;
+    padding: 9px 0;
+    display: block;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.textile-popup-content li:first-child {
+    border-top: 1px solid #EBEBEB;
+    margin-top: 15px;
+}
+
+.textile-popupflex span {
+    color: #A6A6A6;
+    font-size: 14px;
+}
+
+.textile-popupflex span:last-child {
+    color: #28A161;
+    margin-left: 10px;
+}
+
+.textile-popup-content li:last-child {
+    border-color: transparent;
+    padding-bottom: 0;
+}
+
+.textile-popup-right .site-btn {
+    padding: 13px 49px;
+    background: #04A3FF;
+}
+
+.popup-close {
+    background: #252525;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 50%;
+    position: absolute;
+    right: -15px;
+    top: -10px;
+    z-index: 999;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px #222;
+    cursor: pointer;
 }

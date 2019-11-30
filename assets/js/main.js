@@ -82,6 +82,15 @@
 	});
 
 	// hamburger menu active 
+	$(".single-textile-item.v2").on("click", function () {
+		$(".overlay, body").addClass("activepop");
+	});
+
+	$(".overlay, .popup-close").on("click", function () {
+		$(".overlay, body").removeClass("activepop");
+	});
+
+	// hamburger menu active 
 	$(".hamburger-menu-trigger").on("click", function () {
 		$(".overlay, .textile-innerpage-left").addClass("active");
 	});
