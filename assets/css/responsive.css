@@ -364,7 +364,8 @@
 
     .login-modal,
     .contact-modal,
-    .payment-modal {
+    .payment-modal,
+    .textile-item-popup {
         width: 360px;
         padding-top: 0;
         padding-left: 15px;
@@ -624,7 +625,8 @@
 
     .login-modal,
     .contact-modal,
-    .payment-modal {
+    .payment-modal,
+    .textile-item-popup {
         width: 320px;
     }
 
@@ -682,7 +684,8 @@
 
     .login-modal,
     .contact-modal,
-    .payment-modal {
+    .payment-modal,
+    .textile-item-popup {
         width: 300px;
     }
 }

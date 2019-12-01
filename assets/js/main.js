@@ -90,6 +90,10 @@
 		$(".overlay, body").removeClass("activepop");
 	});
 
+	$(".contact").on("click", function () {
+		$(".overlay, body").removeClass("activepop");
+	});
+
 	// hamburger menu active 
 	$(".hamburger-menu-trigger").on("click", function () {
 		$(".overlay, .textile-innerpage-left").addClass("active");
