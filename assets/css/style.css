@@ -1658,4 +1658,6 @@ body.activepop .textile-item-popup {
 
 .site-btn.contact {
     border-radius: 5px;
+    font-size: 20px;
+    font-weight: 900;
 }
