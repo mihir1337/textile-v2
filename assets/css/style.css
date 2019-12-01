@@ -1648,6 +1648,14 @@ body.activepop .textile-item-popup {
     height: 185px;
 }
 
+.single-textile-item.v2 {
+    transition: .2s;
+}
+
 .textile-item-popup {
     padding-right: 0;
 } 
+
+.site-btn.contact {
+    border-radius: 5px;
+}
