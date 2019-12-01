@@ -209,6 +209,9 @@
     .hamburger-menu-trigger {
         top: -36px;
     }
+    .single-textile-item.v2 .single-textile-image {
+        height: 230px;
+    }
 }
 
 

@@ -1644,5 +1644,9 @@ body.activepop .textile-item-popup {
 }
 
 .single-textile-item.v2 .single-textile-image {
-    height: 230px;
+    height: 185px;
 }
+
+.textile-item-popup {
+    padding-right: 0;
+} 
