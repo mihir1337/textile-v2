@@ -485,6 +485,7 @@ img {
     padding-bottom: 15px;
     display: block;
     cursor: pointer;
+    transition: .2s;
 }
 
 .textile-top span {
