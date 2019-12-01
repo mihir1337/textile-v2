@@ -1661,3 +1661,22 @@ body.activepop .textile-item-popup {
     font-size: 20px;
     font-weight: 900;
 }
+
+.bg-video {
+    height: 340px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+video.bg-video__content {
+    max-height: 340px;
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.banner-area {
+    position: relative;
+}
