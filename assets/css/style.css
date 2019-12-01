@@ -446,11 +446,6 @@ img {
     margin-top: -5px;
 }
 
-.single-textile-item.v2:hover {
-    box-shadow: 0 0 10px #b3b1b1;
-    border-color: transparent;
-}
-
 .single-textile-item.v2 .textile-top {
     background: transparent;
     justify-content: flex-start;
@@ -1660,10 +1655,15 @@ body.activepop .textile-item-popup {
     border-radius: 5px;
     font-size: 20px;
     font-weight: 900;
+    padding: 10px 49px;
+}
+
+.site-btn.contact:hover {
+    background: #0070BC;
 }
 
 .bg-video {
-    height: 340px;
+    height: 355px;
     width: 100%;
     position: absolute;
     left: 0;
@@ -1671,7 +1671,7 @@ body.activepop .textile-item-popup {
 }
 
 video.bg-video__content {
-    max-height: 340px;
+    max-height: 355px;
     width: 100%;
     min-height: 100%;
     object-fit: cover;
